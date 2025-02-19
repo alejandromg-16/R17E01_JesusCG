@@ -40,11 +40,11 @@ namespace R17E01_JesusCG
             _nota = -1;
             _calificacion = "DESCONOCIDA";
         }
-        public Examen(string materia , float puntuacion )
+        public Examen(string materia , float puntuacion )º
         {
             Asignatura=materia;
             Nota = puntuacion;
-            _calificacion = "DESCONOCIDA";
+           // _calificacion = "DESCONOCIDA";
         }
         #endregion  
 
